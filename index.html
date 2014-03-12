@@ -2,7 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
-    <title>Vision &amp; Values</title>
+    <title>The Web Polity</title>
     <script src='http://www.w3.org/Tools/respec/respec-w3c-common' async class='remove'></script>
     <script class='remove'>
       var respecConfig = {
@@ -15,6 +15,7 @@
                               , company: "W3C", companyURL: "http://w3.org/" }
                             ]
           ,   edDraftURI:   "http://darobin.github.com/vision/"
+          ,   noTOC:  true
           ,   license:      "cc-by"     // XXX this should be prevented for base
           ,   overrideCopyright:  "<p class='copyright'>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by/3.0/deed.en_US>Creative Commons Attribution 3.0 Unported License</a>.</p>"
         };
@@ -31,25 +32,28 @@
       body {
           max-width:  50em;
       }
+      /* let's make this less about W3C */
+      div.head img, div.head h2, #sotd {
+          display:  none;
+      }
     </style>
   </head>
   <body>
-    <section id='abstract' class='remove'>
+    <section id='abstract'>
       <p>
-        This document captures W3C's vision for action in the world.
+        During W3C Team Day 2013 we held a brainstorming session about what we felt was our 
+        collective vision not just for W3C but for the Web and its community in general. This
+        document is my own personal take from that meeting. Where good there is no shade of a doubt
+        that it has benefited vastly from the input of my dear colleagues; everywhere else it's just
+        my own inanity shining through.
       </p>
     </section>
-    <section id='sotd'>
-      <p>
-        It was created based on a brainstorming breakout during Team Day 2013. It is
-        an evolving, unofficial, not-particularly-sanctioned, likely-wrong-in-many-places 
-        write-up of our collective thinking.
-      </p>
-    </section>
+    <section id='sotd'></section>
     
     <section>
-      <h2>The Web Society</h2>
+      <h2>The Web Polity</h2>
       <!-- 0. TODO -->
+<!--
       <div class='issue' title='TODO'>
         <ul>
           <li>rewrite to make this longer in dense places, right now it is way too compact</li>
@@ -64,9 +68,14 @@
           The final product will sound less crazy.
         </p>
       </div>
+-->
       
-      <!-- 1. The endgame of W3C is to disappear -->
+      <!-- 1. The endgame is to disappear -->
       <p>
+        We the Web form a loose and fractious polity, but a polity no less strong.
+      </p>
+      <p>
+        <!-- that stops -->
         An organisation that does not envision and continuously strive to effect a state of the
         world sufficiently aligned with its goals that it will then, having attained its endgame,
         disband and cease its activities of its own accord runs the risk of progressively renouncing
@@ -232,6 +241,22 @@
     </section>
 
     <section class='appendix'>
+      <h2>Acknowledgements</h2>
+      <p>
+        The following people were part of the initial brainstorming session:
+        Amy,
+        Dave,
+        Dom,
+        Gerald,
+        Judy,
+        Marilyn,
+        Tim.
+      </p>
+      <!-- https://www.w3.org/2013/11/17-vision-minutes.html -->
+    </section>
+    
+<!--
+    <section>
       <h2>Notes From Meeting</h2>
       <p>
         This is just a list of what came from the whiteboard in the meeting.
@@ -270,21 +295,6 @@
         <li>Copyright</li>
       </ul>
     </section>
-
-    <section>
-      <h2>Acknowledgements</h2>
-      <p>
-        The following people were part of the initial brainstorming session:
-        Amy,
-        Dave,
-        Dom,
-        Gerald,
-        Judy,
-        Marilyn,
-        Tim
-      </p>
-      <!-- https://www.w3.org/2013/11/17-vision-minutes.html -->
-    </section>
-    
+-->
   </body>
 </html>
